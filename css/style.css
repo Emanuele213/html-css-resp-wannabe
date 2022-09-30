@@ -143,3 +143,16 @@ img {
 }
 
     /* smartphone */
+
+@media screen and  (min-width: 320px) and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
